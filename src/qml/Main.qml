@@ -7,7 +7,7 @@ ApplicationWindow {
     visible: true
     width: 400
     height: 200
-    title: "Qt + QML + C Example"
+    title: "Blink Bot"
 
     Backend {
         id: backend
@@ -19,7 +19,7 @@ ApplicationWindow {
         implicitWidth: parent.width
         
         Text {
-            text: "Ai Bot App"
+            text: "Blink Bot"
             font.pixelSize: 20
             anchors.centerIn: parent
             color: "#ffffff"
