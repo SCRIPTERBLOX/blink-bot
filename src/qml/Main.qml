@@ -59,6 +59,11 @@ ApplicationWindow {
           Layout.preferredHeight: 180
           Layout.horizontalStretchFactor: 9
           Layout.fillHeight: true
+          
+          topLeftRadius: 15
+          topRightRadius: 5
+          bottomLeftRadius: 5
+          bottomRightRadius: 5
         }
 
         Rectangle {
@@ -69,6 +74,11 @@ ApplicationWindow {
           Layout.preferredHeight: 20
           Layout.horizontalStretchFactor: 1
           Layout.fillHeight: true
+          
+          topLeftRadius: 5
+          topRightRadius: 5
+          bottomLeftRadius: 15
+          bottomRightRadius: 5
         }
       }
       /* End of Left Panel */
@@ -92,6 +102,11 @@ ApplicationWindow {
             color: "#444b7c"
             Layout.preferredHeight: 40
             Layout.preferredWidth: 50
+            
+            topLeftRadius: 5
+            topRightRadius: 5
+            bottomLeftRadius: 5
+            bottomRightRadius: 5
           }
 
           Rectangle {
@@ -101,6 +116,11 @@ ApplicationWindow {
             color: "#444b7c"
             Layout.preferredHeight: 40
             Layout.preferredWidth: 60
+            
+            topLeftRadius: 5
+            topRightRadius: 15
+            bottomLeftRadius: 5
+            bottomRightRadius: 5
           }
         }
         /* End of Top Row */
@@ -113,6 +133,11 @@ ApplicationWindow {
           Layout.fillHeight: true
           Layout.alignment: Qt.AlignRight
           color: "#767676"
+
+          topLeftRadius: 5
+          topRightRadius: 5
+          bottomLeftRadius: 5
+          bottomRightRadius: 15
         }
         /* End of Avatar display */
       }
